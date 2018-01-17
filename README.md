@@ -1,2 +1,7 @@
 # protein_pasted_sample_paper
 Scripts used for results in "An Efficient Distributed Protein Disorder Prediction with Pasted Samples"
+
+
+https://www.sciencedirect.com/science/article/pii/S0045790617324825
+
+Abstract— Big data analytics gained lot of attention in healthcare domain and it helps in developing many applications using machine learning techniques. Several e-health systems are in process of development based on big data analytics which processes large volumes of medical data. In this paper, we compare prediction performance of a machine learning classifier constructed at once in memory with an ensemble of models constructed with the pasting procedure for protein disorder prediction. The pasting procedure takes sample bites of the training data as input, constructs a classification predictor on each sample and pastes the predictors together.  This method has not been previously tested on protein structure data. Protein structure data represents a sequence of amino acid residues therefore samples in the data are not independent. With a sufficiently large sample size we observed increased performance for the pasting procedure compared with a single model constructed at once in memory for all window sizes. We attribute this increased performance to the robustness of the statistical query learning model. This procedure provides a means to improve classification performance at the protein disorder prediction task as well as construct models too large to be held at once in memory.
